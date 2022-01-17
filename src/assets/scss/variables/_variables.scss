@@ -1,0 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/1ae9b9868bd3121e932225b140a839a5?family=Verdana);
+@font-face {font-family: "Verdana"; src: url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.eot"); src: url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.woff") format("woff"), url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1ae9b9868bd3121e932225b140a839a5.svg#Verdana") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/a2b4dc9afc18e76cfcaa0071fa7cd0da?family=Verdana);
+@font-face {font-family: "VerdanaBold"; src: url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.eot"); src: url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.woff") format("woff"), url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/a2b4dc9afc18e76cfcaa0071fa7cd0da.svg#Verdana") format("svg"); }
+
+$vnormal: Verdana;
+$vbold: VerdanaBold;
+$blue: #312C99 !default;
+$primary: $blue !default;

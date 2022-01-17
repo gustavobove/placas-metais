@@ -1,0 +1,129 @@
+@import './variables/variables';
+@import './bootstrap-vue/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+
+@font-face {
+  src: url('../fonts/Verdana-Bold.woff');
+  font-family: Verdana
+}
+
+.verdana {
+  font-family: Verdana!important;
+}
+
+body, html {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+.bg-grey {
+  background-color:#F8F8F8;
+}
+
+.custom-label {
+font-size: 12px;
+line-height: 18px;
+color: #312C99;
+}
+.custom-label-2 {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5B5B5B;
+  margin-bottom: 10px;
+}
+
+  ::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  }
+  ::-webkit-scrollbar-thumb{
+  background: $blue;
+  border-radius: 13px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: $blue;
+  }
+  ::-webkit-scrollbar-track{
+  background: #FFFFFF;
+  border: 4px solid #FFFFFF;
+  border-radius: 13px;
+  box-shadow: inset 3px 3px 21px 0px $blue;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  
+  * {
+    transition: .2s ease-in-out all;
+  }
+
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #EEF3F6;    
+  }
+  .sent {
+    transition: none!important;
+    color: #312C99;
+  }
+  .canceled {
+    transition: none!important;
+    color: #B80000;
+  }
+  .pending {
+    transition: none!important;
+    color: #B8A500;
+  }
+  .packed {
+    transition: none!important;
+    color: #0060B8;
+  }
+
+  th, .light-item {
+    color: #5B5B5B;
+    font-weight: 400;
+    font-size: 16px;
+  
+  }
+  .modal-body, .modal-header, .modal-footer {
+    border: none;
+  }
+
+ 
+.modal-body {
+  padding: 0 55px;
+}
+.modal-footer {
+padding: 20px 55px 55px 55px;
+}
+
+th {
+  
+  &:nth-child(3), &:nth-child(4) {
+    text-align: center!important;
+  }
+  
+}
+
+.product-td {   
+  font-size: 13px;
+  line-height: 15px;
+  color: #000;
+}
+.custom-td {
+  font-size: 16px; 
+  color: #5B5B5B;  
+  padding: 28px 0px!important;
+}
+
+button {
+  &:focus {
+    outline: none!important;
+  }
+}
+
